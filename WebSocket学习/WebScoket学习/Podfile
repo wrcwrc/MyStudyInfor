@@ -1,0 +1,5 @@
+platform :ios, ‘8.0’  
+use_frameworks!  
+target ‘WebScoket学习’ do
+pod 'SocketRocket'
+end

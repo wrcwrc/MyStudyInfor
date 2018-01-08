@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536194DF1FFF251B002406D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 536194DE1FFF251B002406D2 /* AppDelegate.m */; };
+		536194E21FFF251B002406D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536194E11FFF251B002406D2 /* ViewController.m */; };
+		536194E51FFF251B002406D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536194E31FFF251B002406D2 /* Main.storyboard */; };
+		536194E71FFF251B002406D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536194E61FFF251B002406D2 /* Assets.xcassets */; };
+		536194EA1FFF251B002406D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536194E81FFF251B002406D2 /* LaunchScreen.storyboard */; };
+		536194ED1FFF251B002406D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 536194EC1FFF251B002406D2 /* main.m */; };
+		536194F71FFF251B002406D2 /* WebScoket__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 536194F61FFF251B002406D2 /* WebScoket__Tests.m */; };
+		536195021FFF251B002406D2 /* WebScoket__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 536195011FFF251B002406D2 /* WebScoket__UITests.m */; };
+		536195141FFF5CE1002406D2 /* XFWebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 536195121FFF5CE0002406D2 /* XFWebSocketManager.m */; };
+		FD28E61C223E562C82C0A842 /* Pods_WebScoket__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EC9403469736B5CB4DF1F3 /* Pods_WebScoket__.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		536194F31FFF251B002406D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536194D21FFF251B002406D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536194D91FFF251B002406D2;
+			remoteInfo = "WebScoket学习";
+		};
+		536194FE1FFF251B002406D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536194D21FFF251B002406D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536194D91FFF251B002406D2;
+			remoteInfo = "WebScoket学习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347D928935181F27366B3A1F /* Pods-WebScoket学习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebScoket学习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebScoket学习/Pods-WebScoket学习.debug.xcconfig"; sourceTree = "<group>"; };
+		536194DA1FFF251B002406D2 /* WebScoket学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebScoket学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536194DD1FFF251B002406D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		536194DE1FFF251B002406D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		536194E01FFF251B002406D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		536194E11FFF251B002406D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		536194E41FFF251B002406D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		536194E61FFF251B002406D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		536194E91FFF251B002406D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		536194EB1FFF251B002406D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536194EC1FFF251B002406D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		536194F21FFF251B002406D2 /* WebScoket学习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WebScoket学习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536194F61FFF251B002406D2 /* WebScoket__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebScoket__Tests.m; sourceTree = "<group>"; };
+		536194F81FFF251B002406D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536194FD1FFF251B002406D2 /* WebScoket学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WebScoket学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536195011FFF251B002406D2 /* WebScoket__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebScoket__UITests.m; sourceTree = "<group>"; };
+		536195031FFF251B002406D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536195121FFF5CE0002406D2 /* XFWebSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFWebSocketManager.m; sourceTree = "<group>"; };
+		536195131FFF5CE0002406D2 /* XFWebSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFWebSocketManager.h; sourceTree = "<group>"; };
+		C5EC9403469736B5CB4DF1F3 /* Pods_WebScoket__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebScoket__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A6B86097B1F4538BBE6540 /* Pods-WebScoket学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebScoket学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebScoket学习/Pods-WebScoket学习.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536194D71FFF251B002406D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD28E61C223E562C82C0A842 /* Pods_WebScoket__.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536194EF1FFF251B002406D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536194FA1FFF251B002406D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123D486C6C2EA4AEEC6FD5B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				347D928935181F27366B3A1F /* Pods-WebScoket学习.debug.xcconfig */,
+				D9A6B86097B1F4538BBE6540 /* Pods-WebScoket学习.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		536194D11FFF251B002406D2 = {
+			isa = PBXGroup;
+			children = (
+				536194DC1FFF251B002406D2 /* WebScoket学习 */,
+				536194F51FFF251B002406D2 /* WebScoket学习Tests */,
+				536195001FFF251B002406D2 /* WebScoket学习UITests */,
+				536194DB1FFF251B002406D2 /* Products */,
+				123D486C6C2EA4AEEC6FD5B2 /* Pods */,
+				9102061DBB36B35D8998F467 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		536194DB1FFF251B002406D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536194DA1FFF251B002406D2 /* WebScoket学习.app */,
+				536194F21FFF251B002406D2 /* WebScoket学习Tests.xctest */,
+				536194FD1FFF251B002406D2 /* WebScoket学习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536194DC1FFF251B002406D2 /* WebScoket学习 */ = {
+			isa = PBXGroup;
+			children = (
+				536194DD1FFF251B002406D2 /* AppDelegate.h */,
+				536194DE1FFF251B002406D2 /* AppDelegate.m */,
+				536194E01FFF251B002406D2 /* ViewController.h */,
+				536194E11FFF251B002406D2 /* ViewController.m */,
+				536195131FFF5CE0002406D2 /* XFWebSocketManager.h */,
+				536195121FFF5CE0002406D2 /* XFWebSocketManager.m */,
+				536194E31FFF251B002406D2 /* Main.storyboard */,
+				536194E61FFF251B002406D2 /* Assets.xcassets */,
+				536194E81FFF251B002406D2 /* LaunchScreen.storyboard */,
+				536194EB1FFF251B002406D2 /* Info.plist */,
+				536194EC1FFF251B002406D2 /* main.m */,
+			);
+			path = "WebScoket学习";
+			sourceTree = "<group>";
+		};
+		536194F51FFF251B002406D2 /* WebScoket学习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				536194F61FFF251B002406D2 /* WebScoket__Tests.m */,
+				536194F81FFF251B002406D2 /* Info.plist */,
+			);
+			path = "WebScoket学习Tests";
+			sourceTree = "<group>";
+		};
+		536195001FFF251B002406D2 /* WebScoket学习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				536195011FFF251B002406D2 /* WebScoket__UITests.m */,
+				536195031FFF251B002406D2 /* Info.plist */,
+			);
+			path = "WebScoket学习UITests";
+			sourceTree = "<group>";
+		};
+		9102061DBB36B35D8998F467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC9403469736B5CB4DF1F3 /* Pods_WebScoket__.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		536194D91FFF251B002406D2 /* WebScoket学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536195061FFF251B002406D2 /* Build configuration list for PBXNativeTarget "WebScoket学习" */;
+			buildPhases = (
+				91533F7AC79DB119785079B0 /* [CP] Check Pods Manifest.lock */,
+				536194D61FFF251B002406D2 /* Sources */,
+				536194D71FFF251B002406D2 /* Frameworks */,
+				536194D81FFF251B002406D2 /* Resources */,
+				6AD9C6091053B097F6B95BCD /* [CP] Embed Pods Frameworks */,
+				8B246735B760630E1A5D536C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebScoket学习";
+			productName = "WebScoket学习";
+			productReference = 536194DA1FFF251B002406D2 /* WebScoket学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		536194F11FFF251B002406D2 /* WebScoket学习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536195091FFF251B002406D2 /* Build configuration list for PBXNativeTarget "WebScoket学习Tests" */;
+			buildPhases = (
+				536194EE1FFF251B002406D2 /* Sources */,
+				536194EF1FFF251B002406D2 /* Frameworks */,
+				536194F01FFF251B002406D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536194F41FFF251B002406D2 /* PBXTargetDependency */,
+			);
+			name = "WebScoket学习Tests";
+			productName = "WebScoket学习Tests";
+			productReference = 536194F21FFF251B002406D2 /* WebScoket学习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		536194FC1FFF251B002406D2 /* WebScoket学习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5361950C1FFF251B002406D2 /* Build configuration list for PBXNativeTarget "WebScoket学习UITests" */;
+			buildPhases = (
+				536194F91FFF251B002406D2 /* Sources */,
+				536194FA1FFF251B002406D2 /* Frameworks */,
+				536194FB1FFF251B002406D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536194FF1FFF251B002406D2 /* PBXTargetDependency */,
+			);
+			name = "WebScoket学习UITests";
+			productName = "WebScoket学习UITests";
+			productReference = 536194FD1FFF251B002406D2 /* WebScoket学习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536194D21FFF251B002406D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "XingFei_韦荣炽";
+				TargetAttributes = {
+					536194D91FFF251B002406D2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					536194F11FFF251B002406D2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 536194D91FFF251B002406D2;
+					};
+					536194FC1FFF251B002406D2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 536194D91FFF251B002406D2;
+					};
+				};
+			};
+			buildConfigurationList = 536194D51FFF251B002406D2 /* Build configuration list for PBXProject "WebScoket学习" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 536194D11FFF251B002406D2;
+			productRefGroup = 536194DB1FFF251B002406D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536194D91FFF251B002406D2 /* WebScoket学习 */,
+				536194F11FFF251B002406D2 /* WebScoket学习Tests */,
+				536194FC1FFF251B002406D2 /* WebScoket学习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536194D81FFF251B002406D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536194EA1FFF251B002406D2 /* LaunchScreen.storyboard in Resources */,
+				536194E71FFF251B002406D2 /* Assets.xcassets in Resources */,
+				536194E51FFF251B002406D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536194F01FFF251B002406D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536194FB1FFF251B002406D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AD9C6091053B097F6B95BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebScoket学习/Pods-WebScoket学习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B246735B760630E1A5D536C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebScoket学习/Pods-WebScoket学习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91533F7AC79DB119785079B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536194D61FFF251B002406D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536194E21FFF251B002406D2 /* ViewController.m in Sources */,
+				536194ED1FFF251B002406D2 /* main.m in Sources */,
+				536194DF1FFF251B002406D2 /* AppDelegate.m in Sources */,
+				536195141FFF5CE1002406D2 /* XFWebSocketManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536194EE1FFF251B002406D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536194F71FFF251B002406D2 /* WebScoket__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536194F91FFF251B002406D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536195021FFF251B002406D2 /* WebScoket__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		536194F41FFF251B002406D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 536194D91FFF251B002406D2 /* WebScoket学习 */;
+			targetProxy = 536194F31FFF251B002406D2 /* PBXContainerItemProxy */;
+		};
+		536194FF1FFF251B002406D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 536194D91FFF251B002406D2 /* WebScoket学习 */;
+			targetProxy = 536194FE1FFF251B002406D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		536194E31FFF251B002406D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536194E41FFF251B002406D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		536194E81FFF251B002406D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536194E91FFF251B002406D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		536195041FFF251B002406D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		536195051FFF251B002406D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		536195071FFF251B002406D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347D928935181F27366B3A1F /* Pods-WebScoket学习.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebScoket学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XingFei----.WebScoket--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		536195081FFF251B002406D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A6B86097B1F4538BBE6540 /* Pods-WebScoket学习.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebScoket学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XingFei----.WebScoket--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5361950A1FFF251B002406D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebScoket学习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XingFei----.WebScoket--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebScoket学习.app/WebScoket学习";
+			};
+			name = Debug;
+		};
+		5361950B1FFF251B002406D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebScoket学习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XingFei----.WebScoket--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebScoket学习.app/WebScoket学习";
+			};
+			name = Release;
+		};
+		5361950D1FFF251B002406D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebScoket学习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XingFei----.WebScoket--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WebScoket学习";
+			};
+			name = Debug;
+		};
+		5361950E1FFF251B002406D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebScoket学习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XingFei----.WebScoket--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WebScoket学习";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536194D51FFF251B002406D2 /* Build configuration list for PBXProject "WebScoket学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536195041FFF251B002406D2 /* Debug */,
+				536195051FFF251B002406D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536195061FFF251B002406D2 /* Build configuration list for PBXNativeTarget "WebScoket学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536195071FFF251B002406D2 /* Debug */,
+				536195081FFF251B002406D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536195091FFF251B002406D2 /* Build configuration list for PBXNativeTarget "WebScoket学习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5361950A1FFF251B002406D2 /* Debug */,
+				5361950B1FFF251B002406D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5361950C1FFF251B002406D2 /* Build configuration list for PBXNativeTarget "WebScoket学习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5361950D1FFF251B002406D2 /* Debug */,
+				5361950E1FFF251B002406D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536194D21FFF251B002406D2 /* Project object */;
+}
